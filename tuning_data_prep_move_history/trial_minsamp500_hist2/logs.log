@@ -1,0 +1,405 @@
+root -> INFO: Hello
+root -> INFO: data_offset=200000, min_samp=500, min_elo=2500, remove_ties=1
+root -> INFO: history_count = 2
+root -> INFO: learning_rate=0.0015, weight_decay=0.0001, batch_size=5000, epochs=100
+chess.pgn -> ERROR: illegal san: 'Bc6' in rnbqkb1r/ppp1pppp/3p1n2/8/2P5/3P2P1/PP2PP1P/RNBQKBNR b KQkq - 0 3 while parsing <Game at 0x7ad6ad128d90 ('?' vs. '?', '????.??.??' at '?')>
+root -> INFO: Epoch: 0
+root -> INFO: Train Loss: 0.9694355316460133
+root -> INFO: Val Loss: 0.9653175473213196
+root -> INFO: Val Accuracy: 0.0
+root -> INFO: Epoch: 1
+root -> INFO: Train Loss: 0.8539868406951427
+root -> INFO: Val Loss: 0.8616893887519836
+root -> INFO: Val Accuracy: 0.02548997394358219
+root -> INFO: Epoch: 2
+root -> INFO: Train Loss: 0.7604493610560894
+root -> INFO: Val Loss: 0.7519459128379822
+root -> INFO: Val Accuracy: 0.18114874815905743
+root -> INFO: Epoch: 3
+root -> INFO: Train Loss: 0.6760098934173584
+root -> INFO: Val Loss: 0.6641348302364349
+root -> INFO: Val Accuracy: 0.30078169253426984
+root -> INFO: Epoch: 4
+root -> INFO: Train Loss: 0.5984823927283287
+root -> INFO: Val Loss: 0.6089352369308472
+root -> INFO: Val Accuracy: 0.39401835278123937
+root -> INFO: Epoch: 5
+root -> INFO: Train Loss: 0.5290154200047255
+root -> INFO: Val Loss: 0.5403691828250885
+root -> INFO: Val Accuracy: 0.4610853064461312
+root -> INFO: Epoch: 6
+root -> INFO: Train Loss: 0.46943702176213264
+root -> INFO: Val Loss: 0.48170194029808044
+root -> INFO: Val Accuracy: 0.521581511272233
+root -> INFO: Epoch: 7
+root -> INFO: Train Loss: 0.4219923820346594
+root -> INFO: Val Loss: 0.4716341644525528
+root -> INFO: Val Accuracy: 0.5546618330123485
+root -> INFO: Epoch: 8
+root -> INFO: Train Loss: 0.38293257914483547
+root -> INFO: Val Loss: 0.40592050552368164
+root -> INFO: Val Accuracy: 0.6031494278916959
+root -> INFO: Epoch: 9
+root -> INFO: Train Loss: 0.3503028154373169
+root -> INFO: Val Loss: 0.37988464534282684
+root -> INFO: Val Accuracy: 0.6347569955817378
+root -> INFO: Epoch: 10
+root -> INFO: Train Loss: 0.32455755956470966
+root -> INFO: Val Loss: 0.3618115782737732
+root -> INFO: Val Accuracy: 0.6544692420981081
+root -> INFO: Epoch: 11
+root -> INFO: Train Loss: 0.3029052782803774
+root -> INFO: Val Loss: 0.3415721654891968
+root -> INFO: Val Accuracy: 0.6771269967146256
+root -> INFO: Epoch: 12
+root -> INFO: Train Loss: 0.28697497956454754
+root -> INFO: Val Loss: 0.3259301632642746
+root -> INFO: Val Accuracy: 0.6925342698538575
+root -> INFO: Epoch: 13
+root -> INFO: Train Loss: 0.2694851774722338
+root -> INFO: Val Loss: 0.31930510699748993
+root -> INFO: Val Accuracy: 0.704203013481364
+root -> INFO: Epoch: 14
+root -> INFO: Train Loss: 0.2550082542002201
+root -> INFO: Val Loss: 0.31687502562999725
+root -> INFO: Val Accuracy: 0.7130395377818058
+root -> INFO: Epoch: 15
+root -> INFO: Train Loss: 0.24398841615766287
+root -> INFO: Val Loss: 0.3130604177713394
+root -> INFO: Val Accuracy: 0.7267474793247989
+root -> INFO: Epoch: 16
+root -> INFO: Train Loss: 0.238153419457376
+root -> INFO: Val Loss: 0.3012877255678177
+root -> INFO: Val Accuracy: 0.7407952871870398
+root -> INFO: Epoch: 17
+root -> INFO: Train Loss: 0.23004041146486998
+root -> INFO: Val Loss: 0.31609396636486053
+root -> INFO: Val Accuracy: 0.7214229069899173
+root -> INFO: Epoch: 18
+root -> INFO: Train Loss: 0.21817524544894695
+root -> INFO: Val Loss: 0.2746421694755554
+root -> INFO: Val Accuracy: 0.7531437634530418
+root -> INFO: Epoch: 19
+root -> INFO: Train Loss: 0.21467501670122147
+root -> INFO: Val Loss: 0.2847401350736618
+root -> INFO: Val Accuracy: 0.7503115441259771
+root -> INFO: Epoch: 20
+root -> INFO: Train Loss: 0.20722065679728985
+root -> INFO: Val Loss: 0.2645825147628784
+root -> INFO: Val Accuracy: 0.7671915713152827
+root -> INFO: Epoch: 21
+root -> INFO: Train Loss: 0.20076338201761246
+root -> INFO: Val Loss: 0.2700766623020172
+root -> INFO: Val Accuracy: 0.7666251274498698
+root -> INFO: Epoch: 22
+root -> INFO: Train Loss: 0.19948821514844894
+root -> INFO: Val Loss: 0.2491759955883026
+root -> INFO: Val Accuracy: 0.7813526679506061
+root -> INFO: Epoch: 23
+root -> INFO: Train Loss: 0.19204592052847147
+root -> INFO: Val Loss: 0.2439490184187889
+root -> INFO: Val Accuracy: 0.7874702616970658
+root -> INFO: Epoch: 24
+root -> INFO: Train Loss: 0.18815119750797749
+root -> INFO: Val Loss: 0.2536877989768982
+root -> INFO: Val Accuracy: 0.7760280956157245
+root -> INFO: Epoch: 25
+root -> INFO: Train Loss: 0.1859974330291152
+root -> INFO: Val Loss: 0.2488929033279419
+root -> INFO: Val Accuracy: 0.784411464823836
+root -> INFO: Epoch: 26
+root -> INFO: Train Loss: 0.18144350964576006
+root -> INFO: Val Loss: 0.24914640933275223
+root -> INFO: Val Accuracy: 0.7955137645859295
+root -> INFO: Epoch: 27
+root -> INFO: Train Loss: 0.1785938013345003
+root -> INFO: Val Loss: 0.23693571984767914
+root -> INFO: Val Accuracy: 0.8012914920131415
+root -> INFO: Epoch: 28
+root -> INFO: Train Loss: 0.1760929934680462
+root -> INFO: Val Loss: 0.23680415004491806
+root -> INFO: Val Accuracy: 0.8065027755749405
+root -> INFO: Epoch: 29
+root -> INFO: Train Loss: 0.17396953701972961
+root -> INFO: Val Loss: 0.22915096580982208
+root -> INFO: Val Accuracy: 0.8024243797439674
+root -> INFO: Epoch: 30
+root -> INFO: Train Loss: 0.17349911481142044
+root -> INFO: Val Loss: 0.22686253488063812
+root -> INFO: Val Accuracy: 0.807748952078849
+root -> INFO: Epoch: 31
+root -> INFO: Train Loss: 0.17034056782722473
+root -> INFO: Val Loss: 0.22445028275251389
+root -> INFO: Val Accuracy: 0.8127336580944828
+root -> INFO: Epoch: 32
+root -> INFO: Train Loss: 0.16948707588016987
+root -> INFO: Val Loss: 0.25647925585508347
+root -> INFO: Val Accuracy: 0.7847513311430837
+root -> INFO: Epoch: 33
+root -> INFO: Train Loss: 0.16484254598617554
+root -> INFO: Val Loss: 0.23587651550769806
+root -> INFO: Val Accuracy: 0.801178203240059
+root -> INFO: Epoch: 34
+root -> INFO: Train Loss: 0.16435219533741474
+root -> INFO: Val Loss: 0.23667583614587784
+root -> INFO: Val Accuracy: 0.8032174011555455
+root -> INFO: Epoch: 35
+root -> INFO: Train Loss: 0.16115111857652664
+root -> INFO: Val Loss: 0.220731221139431
+root -> INFO: Val Accuracy: 0.8142064121445565
+root -> INFO: Epoch: 36
+root -> INFO: Train Loss: 0.15920456033200026
+root -> INFO: Val Loss: 0.2199869081377983
+root -> INFO: Val Accuracy: 0.8198708507986858
+root -> INFO: Epoch: 37
+root -> INFO: Train Loss: 0.15863428451120853
+root -> INFO: Val Loss: 0.21859418600797653
+root -> INFO: Val Accuracy: 0.8229296476719157
+root -> INFO: Epoch: 38
+root -> INFO: Train Loss: 0.1581964548677206
+root -> INFO: Val Loss: 0.21413084119558334
+root -> INFO: Val Accuracy: 0.8221366262603376
+root -> INFO: Epoch: 39
+root -> INFO: Train Loss: 0.15655892807990313
+root -> INFO: Val Loss: 0.21933196485042572
+root -> INFO: Val Accuracy: 0.8247422680412371
+root -> INFO: Epoch: 40
+root -> INFO: Train Loss: 0.15617615263909101
+root -> INFO: Val Loss: 0.21683279424905777
+root -> INFO: Val Accuracy: 0.8206638722102639
+root -> INFO: Epoch: 41
+root -> INFO: Train Loss: 0.15285905450582504
+root -> INFO: Val Loss: 0.21497254818677902
+root -> INFO: Val Accuracy: 0.8273479098221366
+root -> INFO: Epoch: 42
+root -> INFO: Train Loss: 0.1517217792570591
+root -> INFO: Val Loss: 0.21791759878396988
+root -> INFO: Val Accuracy: 0.8265548884105585
+root -> INFO: Epoch: 43
+root -> INFO: Train Loss: 0.152288056910038
+root -> INFO: Val Loss: 0.2352859526872635
+root -> INFO: Val Accuracy: 0.8146595672368868
+root -> INFO: Epoch: 44
+root -> INFO: Train Loss: 0.15210302639752626
+root -> INFO: Val Loss: 0.21112415194511414
+root -> INFO: Val Accuracy: 0.8262150220913107
+root -> INFO: Epoch: 45
+root -> INFO: Train Loss: 0.15031760092824697
+root -> INFO: Val Loss: 0.22441476583480835
+root -> INFO: Val Accuracy: 0.8213436048487595
+root -> INFO: Epoch: 46
+root -> INFO: Train Loss: 0.14791207760572433
+root -> INFO: Val Loss: 0.2110753431916237
+root -> INFO: Val Accuracy: 0.8307465730146143
+root -> INFO: Epoch: 47
+root -> INFO: Train Loss: 0.14727592840790749
+root -> INFO: Val Loss: 0.21242284029722214
+root -> INFO: Val Accuracy: 0.8326724821570183
+root -> INFO: Epoch: 48
+root -> INFO: Train Loss: 0.14646904729306698
+root -> INFO: Val Loss: 0.21325595676898956
+root -> INFO: Val Accuracy: 0.831652883199275
+root -> INFO: Epoch: 49
+root -> INFO: Train Loss: 0.14642163272947073
+root -> INFO: Val Loss: 0.20658215135335922
+root -> INFO: Val Accuracy: 0.8375438993995695
+root -> INFO: Epoch: 50
+root -> INFO: Train Loss: 0.14588168915361166
+root -> INFO: Val Loss: 0.25078168511390686
+root -> INFO: Val Accuracy: 0.80910841735584
+root -> INFO: Epoch: 51
+root -> INFO: Train Loss: 0.143589005805552
+root -> INFO: Val Loss: 0.21262440085411072
+root -> INFO: Val Accuracy: 0.8307465730146143
+root -> INFO: Epoch: 52
+root -> INFO: Train Loss: 0.14375540427863598
+root -> INFO: Val Loss: 0.24303008615970612
+root -> INFO: Val Accuracy: 0.80910841735584
+root -> INFO: Epoch: 53
+root -> INFO: Train Loss: 0.1429865788668394
+root -> INFO: Val Loss: 0.21195337921380997
+root -> INFO: Val Accuracy: 0.836864166761074
+root -> INFO: Epoch: 54
+root -> INFO: Train Loss: 0.14106899220496416
+root -> INFO: Val Loss: 0.20748241990804672
+root -> INFO: Val Accuracy: 0.8391299422227257
+root -> INFO: Epoch: 55
+root -> INFO: Train Loss: 0.1414681551977992
+root -> INFO: Val Loss: 0.21374091506004333
+root -> INFO: Val Accuracy: 0.829726974056871
+root -> INFO: Epoch: 56
+root -> INFO: Train Loss: 0.13887506444007158
+root -> INFO: Val Loss: 0.2371232509613037
+root -> INFO: Val Accuracy: 0.8205505834371813
+root -> INFO: Epoch: 57
+root -> INFO: Train Loss: 0.14017179189249873
+root -> INFO: Val Loss: 0.2077583372592926
+root -> INFO: Val Accuracy: 0.8379970544918999
+root -> INFO: Epoch: 58
+root -> INFO: Train Loss: 0.14071065187454224
+root -> INFO: Val Loss: 0.20177210867404938
+root -> INFO: Val Accuracy: 0.8411691401382123
+root -> INFO: Epoch: 59
+root -> INFO: Train Loss: 0.13945394568145275
+root -> INFO: Val Loss: 0.2095893695950508
+root -> INFO: Val Accuracy: 0.8386767871303954
+root -> INFO: Epoch: 60
+root -> INFO: Train Loss: 0.14001099579036236
+root -> INFO: Val Loss: 0.20507387816905975
+root -> INFO: Val Accuracy: 0.8435482043729466
+root -> INFO: Epoch: 61
+root -> INFO: Train Loss: 0.14175123255699873
+root -> INFO: Val Loss: 0.20432066172361374
+root -> INFO: Val Accuracy: 0.8412824289112949
+root -> INFO: Epoch: 62
+root -> INFO: Train Loss: 0.13803376629948616
+root -> INFO: Val Loss: 0.21846649050712585
+root -> INFO: Val Accuracy: 0.8341452362070919
+root -> INFO: Epoch: 63
+root -> INFO: Train Loss: 0.137030728161335
+root -> INFO: Val Loss: 0.20393382757902145
+root -> INFO: Val Accuracy: 0.8432083380536989
+root -> INFO: Epoch: 64
+root -> INFO: Train Loss: 0.13584287650883198
+root -> INFO: Val Loss: 0.20775272697210312
+root -> INFO: Val Accuracy: 0.8406026962727994
+root -> INFO: Epoch: 65
+root -> INFO: Train Loss: 0.13758097495883703
+root -> INFO: Val Loss: 0.2081979364156723
+root -> INFO: Val Accuracy: 0.8442279370114422
+root -> INFO: Epoch: 66
+root -> INFO: Train Loss: 0.13654871424660087
+root -> INFO: Val Loss: 0.21069232374429703
+root -> INFO: Val Accuracy: 0.8395830973150561
+root -> INFO: Epoch: 67
+root -> INFO: Train Loss: 0.13899398129433393
+root -> INFO: Val Loss: 0.20417756587266922
+root -> INFO: Val Accuracy: 0.8446810921037725
+root -> INFO: Epoch: 68
+root -> INFO: Train Loss: 0.13751887064427137
+root -> INFO: Val Loss: 0.2044074982404709
+root -> INFO: Val Accuracy: 0.842641894188286
+root -> INFO: Epoch: 69
+root -> INFO: Train Loss: 0.13501249253749847
+root -> INFO: Val Loss: 0.223408542573452
+root -> INFO: Val Accuracy: 0.8357312790302481
+root -> INFO: Epoch: 70
+root -> INFO: Train Loss: 0.13519143592566252
+root -> INFO: Val Loss: 0.20274905115365982
+root -> INFO: Val Accuracy: 0.8457006910615158
+root -> INFO: Epoch: 71
+root -> INFO: Train Loss: 0.13516106270253658
+root -> INFO: Val Loss: 0.19888988137245178
+root -> INFO: Val Accuracy: 0.8457006910615158
+root -> INFO: Epoch: 72
+root -> INFO: Train Loss: 0.13445790205150843
+root -> INFO: Val Loss: 0.20206109434366226
+root -> INFO: Val Accuracy: 0.8462671349269287
+root -> INFO: Epoch: 73
+root -> INFO: Train Loss: 0.13321178779006004
+root -> INFO: Val Loss: 0.20085639506578445
+root -> INFO: Val Accuracy: 0.8476266002039198
+root -> INFO: Epoch: 74
+root -> INFO: Train Loss: 0.13368416763842106
+root -> INFO: Val Loss: 0.2004292756319046
+root -> INFO: Val Accuracy: 0.8460405573807636
+root -> INFO: Epoch: 75
+root -> INFO: Train Loss: 0.13598320540040731
+root -> INFO: Val Loss: 0.219411201775074
+root -> INFO: Val Accuracy: 0.8476266002039198
+root -> INFO: Epoch: 76
+root -> INFO: Train Loss: 0.1359969163313508
+root -> INFO: Val Loss: 0.2017064094543457
+root -> INFO: Val Accuracy: 0.8461538461538461
+root -> INFO: Epoch: 77
+root -> INFO: Train Loss: 0.13331111427396536
+root -> INFO: Val Loss: 0.20590364933013916
+root -> INFO: Val Accuracy: 0.8413957176843775
+root -> INFO: Epoch: 78
+root -> INFO: Train Loss: 0.13356524193659425
+root -> INFO: Val Loss: 0.2151867225766182
+root -> INFO: Val Accuracy: 0.8411691401382123
+root -> INFO: Epoch: 79
+root -> INFO: Train Loss: 0.13261902937665582
+root -> INFO: Val Loss: 0.20299901068210602
+root -> INFO: Val Accuracy: 0.8458139798345984
+root -> INFO: Epoch: 80
+root -> INFO: Train Loss: 0.1326943109743297
+root -> INFO: Val Loss: 0.1980094239115715
+root -> INFO: Val Accuracy: 0.8502322419848193
+root -> INFO: Epoch: 81
+root -> INFO: Train Loss: 0.13026307383552194
+root -> INFO: Val Loss: 0.20234163850545883
+root -> INFO: Val Accuracy: 0.8461538461538461
+root -> INFO: Epoch: 82
+root -> INFO: Train Loss: 0.13101670937612653
+root -> INFO: Val Loss: 0.2113184779882431
+root -> INFO: Val Accuracy: 0.8413957176843775
+root -> INFO: Epoch: 83
+root -> INFO: Train Loss: 0.1305021932348609
+root -> INFO: Val Loss: 0.19887566566467285
+root -> INFO: Val Accuracy: 0.8475133114308372
+root -> INFO: Epoch: 84
+root -> INFO: Train Loss: 0.12957481620833278
+root -> INFO: Val Loss: 0.20108798891305923
+root -> INFO: Val Accuracy: 0.8514784184887277
+root -> INFO: Epoch: 85
+root -> INFO: Train Loss: 0.12936914060264826
+root -> INFO: Val Loss: 0.20830418169498444
+root -> INFO: Val Accuracy: 0.8480797552962501
+root -> INFO: Epoch: 86
+root -> INFO: Train Loss: 0.13161943666636944
+root -> INFO: Val Loss: 0.20390141755342484
+root -> INFO: Val Accuracy: 0.8450209584230203
+root -> INFO: Epoch: 87
+root -> INFO: Train Loss: 0.13163391593843699
+root -> INFO: Val Loss: 0.20734438300132751
+root -> INFO: Val Accuracy: 0.849212643027076
+root -> INFO: Epoch: 88
+root -> INFO: Train Loss: 0.13437373656779528
+root -> INFO: Val Loss: 0.23819731920957565
+root -> INFO: Val Accuracy: 0.8259884445451455
+root -> INFO: Epoch: 89
+root -> INFO: Train Loss: 0.1301285531371832
+root -> INFO: Val Loss: 0.19680536538362503
+root -> INFO: Val Accuracy: 0.8471734451115894
+root -> INFO: Epoch: 90
+root -> INFO: Train Loss: 0.13278522016480565
+root -> INFO: Val Loss: 0.21731438487768173
+root -> INFO: Val Accuracy: 0.8383369208111476
+root -> INFO: Epoch: 91
+root -> INFO: Train Loss: 0.12989289686083794
+root -> INFO: Val Loss: 0.19866275787353516
+root -> INFO: Val Accuracy: 0.8474000226577546
+root -> INFO: Epoch: 92
+root -> INFO: Train Loss: 0.12825185526162386
+root -> INFO: Val Loss: 0.19739104062318802
+root -> INFO: Val Accuracy: 0.849212643027076
+root -> INFO: Epoch: 93
+root -> INFO: Train Loss: 0.12891025561839342
+root -> INFO: Val Loss: 0.20925015956163406
+root -> INFO: Val Accuracy: 0.8447943808768551
+root -> INFO: Epoch: 94
+root -> INFO: Train Loss: 0.1294688512571156
+root -> INFO: Val Loss: 0.2104540765285492
+root -> INFO: Val Accuracy: 0.8430950492806163
+root -> INFO: Epoch: 95
+root -> INFO: Train Loss: 0.12921705143526196
+root -> INFO: Val Loss: 0.2282438427209854
+root -> INFO: Val Accuracy: 0.8348249688455874
+root -> INFO: Epoch: 96
+root -> INFO: Train Loss: 0.13047902565449476
+root -> INFO: Val Loss: 0.20373349636793137
+root -> INFO: Val Accuracy: 0.8475133114308372
+root -> INFO: Epoch: 97
+root -> INFO: Train Loss: 0.12732672644779086
+root -> INFO: Val Loss: 0.19715646654367447
+root -> INFO: Val Accuracy: 0.8539707714965447
+root -> INFO: Epoch: 98
+root -> INFO: Train Loss: 0.12633030815050006
+root -> INFO: Val Loss: 0.20758437365293503
+root -> INFO: Val Accuracy: 0.8476266002039198
+root -> INFO: Epoch: 99
+root -> INFO: Train Loss: 0.12866915576159954
+root -> INFO: Val Loss: 0.2116910070180893
+root -> INFO: Val Accuracy: 0.8449076696499377
